@@ -12,10 +12,23 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#date {
+    font-size: 14px;
+    color: black;
+    margin-top: 14%;
+  }
+
+  #date:hover {
+    font-size: 14px;
+    color: black;
+    margin-top: 14%;
+    font-weight: bold;
+  }
+
 #clock {
     font-size: 350px;
     color: black;
-    margin-top: 10%;
+
     margin-bottom: 10%;
 }
 
@@ -30,7 +43,7 @@ body {
     width: 800px;
     height: 65px;
     border-radius: 10% 0 10% 0;
-}
+} 
 
 
 
@@ -50,7 +63,7 @@ body {
   }
   
 
-  @media only screen and (min-width: 601px) and (max-width: 769px) {
+  @media only screen and (min-width: 601px) and (max-width: 789px) {
     
     #clock {
         font-size: 85px;
@@ -65,7 +78,7 @@ body {
 
   }
   
-  @media only screen and (min-width: 770px) and (max-width: 992px) {
+  @media only screen and (min-width: 790px) and (max-width: 992px) {
     
     #clock {
         font-size: 200px;
@@ -75,29 +88,37 @@ body {
 
   }
   
-  @media only screen and (min-width: 993px) and (max-width: 1020px) {
+  @media only screen and (min-width: 993px) and (max-width: 1059px) {
 
     #clock {
-        font-size: 250px;
+        font-size: 240px;
         color: black;
         margin-bottom: 10%;
     }
 
   }
   
-  @media only screen and (min-width: 1020px) and (max-width: 1200px) {
+  @media only screen and (min-width: 1060px) and (max-width: 1200px) {
 
     #clock {
-        font-size: 300px;
+        font-size: 290px;
         color: black;
         margin-bottom: 10%;
     }
 
   }
   
+  @media only screen and (min-width: 1201px) and (max-width: 2000) {
+    
+    #clock {
+        font-size: 400px;
+        color: black;
+        margin-bottom: 10%;
+    }
 
+  }
   
-  @media only screen and (min-width: 1201px) and (max-width: 2794) {
+  @media only screen and (min-width: 2001px) and (max-width: 2794) {
     
     #clock {
         font-size: 500px;

@@ -1,8 +1,8 @@
 function updateClock() {
-    var now = new Date();
-    var hours = now.getHours();
-    var minutes = now.getMinutes();
-    var seconds = now.getSeconds();
+    var currentDate = new Date();
+    var hours = currentDate.getHours();
+    var minutes = currentDate.getMinutes();
+    var seconds = currentDate.getSeconds();
 
     hours = hours < 10 ? '0' + hours : hours;
     minutes = minutes < 10 ? '0' + minutes : minutes;
@@ -10,7 +10,13 @@ function updateClock() {
 
     var timeString = hours + ':' + minutes + ':' + seconds;
     document.getElementById('clock').innerHTML = timeString;
-  }
 
-  setInterval(updateClock, 1000);
-  updateClock();
+    var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    var formattedDate = currentDate.toLocaleDateString('en-US', options);
+    document.getElementById('date').innerHTML = formattedDate;
+}
+
+setInterval(updateClock, 1000);
+updateClock();
+
+
