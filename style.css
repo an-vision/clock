@@ -13,13 +13,13 @@ body {
 }
 
 #date {
-    font-size: 14px;
+    font-size: 16px;
     color: black;
     margin-top: 14%;
   }
 
   #date:hover {
-    font-size: 14px;
+    font-size: 16px;
     color: black;
     margin-top: 14%;
     font-weight: bold;
