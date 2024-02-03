@@ -64,9 +64,17 @@ body {
 
   }
   
+  @media only screen and (min-width: 993px) and (max-width: 1020px) {
 
+    #clock {
+        font-size: 250px;
+        color: black;
+        margin-bottom: 10%;
+    }
+
+  }
   
-  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+  @media only screen and (min-width: 1020px) and (max-width: 1200px) {
 
     #clock {
         font-size: 300px;
